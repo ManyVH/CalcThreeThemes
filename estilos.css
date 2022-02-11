@@ -1,0 +1,112 @@
+.alto-100{
+    height: 90vh;
+}
+.ancho{
+    width: 60%;
+}
+@media (min-width: 800px){
+    .ancho{
+        width: 60%;
+    }
+    .boton-chido{
+        width: 60%;
+    }
+}
+@media (min-width: 1200px){
+    .ancho{
+        width: 40%;
+    }
+    .boton-chido{
+        width: 60%;
+    }
+}
+@media (max-width: 400px){
+    .ancho{
+        width: 100%;
+        
+    }
+    .boton-chido{
+        width: 100%;
+    }
+}
+@media (max-width: 770px){
+    .ancho{
+        width: 90%;
+        
+    }
+    .boton-chido{
+        width: 60%;
+    }
+}
+
+.color-num{
+    background-color: hsl(30, 25%, 89%);
+    
+}
+.boton-chido{
+    width: 80%;
+    text-align: center;
+    font-family: 'Spartan', sans-serif;
+}
+
+.boton-eliminar{
+    background-color: hsl(225, 21%, 49%);
+    font-family: 'Spartan', sans-serif;
+    color: white;
+}
+.principal-color{
+    background-color: hsl(222, 26%, 31%);
+    
+}
+.secondary-color{
+    background-color: hsl(224, 36%, 15%);
+}
+.pantallita{
+    background-color: hsl(223, 31%, 20%);
+    height: 70px;
+    font-size: 2rem;
+    
+}
+.btn-color-elim{
+    background-color: hsl(225, 21%, 49%);
+}
+.igual{
+    background-color: hsl(6, 63%, 50%);
+}
+.boton-acomodado{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1px;
+    padding-bottom: 5px;
+}
+.credito{
+    text-align: center;
+    color: hsl(30, 25%, 89%);
+}
+.perfil{
+    text-decoration: none;
+    color: hsl(30, 25%, 89%);
+}
+.perfil:hover{
+    color: hsl(224, 36%, 15%);
+}
+.fuente{
+    font-family: 'Spartan', sans-serif;
+    color: white;
+}
+
+  
+.rango::-webkit-slider-runnable-track {
+    background-color: hsl(223, 31%, 20%);
+    border-radius: 8px;
+    
+}
+
+
+
+  
+  
+  
+  
